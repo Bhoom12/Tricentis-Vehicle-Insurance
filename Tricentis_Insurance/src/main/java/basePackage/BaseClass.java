@@ -40,7 +40,7 @@ public class BaseClass {
 
 	//@Parameters("browserName")
 	@BeforeClass(alwaysRun = true)
-	public void browserSetUp(@Optional("Firefox") String browserName) throws IOException {
+	public void browserSetUp(@Optional("Chrome") String browserName) throws IOException {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			 WebDriverManager.chromedriver().setup();

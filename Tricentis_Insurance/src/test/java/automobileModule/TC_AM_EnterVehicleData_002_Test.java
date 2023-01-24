@@ -20,9 +20,11 @@ public class TC_AM_EnterVehicleData_002_Test extends BaseClass {
 	// To check Make dropdown options are displayed and spelled properly
 	@Test
 	public void TC_AM_EnterVehicleData_002() {
+		Reporter.log("TC_AM_EnterVehicleData_002_Test", true);
 		TricentisHomePage tricentisHomePage = new TricentisHomePage(driver);
 		tricentisHomePage.navigateToAutomobile();
 		AMVehicleData enterVehicleData = new AMVehicleData(driver);
+		enterVehicleData.getIconmMakeDropdown().click();
 		String expectedMakeDropdownOptions = DataReader.getTestData("TC_AM_EnterVehicleData_002", "EXPECTED DATA");
 		String d[] = expectedMakeDropdownOptions.split(",");
 		Assert.assertEquals(enterVehicleData.getMakeDropdown().isDisplayed(), true, "Make dropdown is not displayed");
@@ -33,7 +35,6 @@ public class TC_AM_EnterVehicleData_002_Test extends BaseClass {
 			Assert.assertEquals(makeOptions.get(i).getText(), d[i], "Make dropdown " + d[i] + " option mismatched");
 		}
 		Reporter.log("Make dropdown options are matched with the requriment", true);
-
 	}
 
 }

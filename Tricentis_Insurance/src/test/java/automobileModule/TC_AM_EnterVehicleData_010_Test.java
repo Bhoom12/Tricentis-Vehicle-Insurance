@@ -12,19 +12,16 @@ import basePackage.BaseClass;
 import basePackage.DataReader;
 import pom.*;
 
-public class TC_AM_EnterVehicleData_010 extends BaseClass {
+public class TC_AM_EnterVehicleData_010_Test extends BaseClass {
 	@DataProvider
 	public static String[]data() {
-		return DataReader.getTestDataForDataProvider("TC_AM_EnterVehicleData_014to_020", "TESTDATA");
+		return DataReader.getTestDataForDataProvider("TC_AM_EnterVehicleData_010", "TESTDATA");
 	}
 
 	@Test(dataProvider = "data")
-	public void TC_AM_EnterVehicleData_014to_020(String n) {
-		//String d[]=n.split(",");
-		//String passData=n[1];
-		//System.out.println(n);
-		//String expectedErrorMsg=d[1];
-		String expectedData=DataReader.getTestData("TC_AM_EnterVehicleData_014to_020","EXPECTED DATA");
+	public void TC_AM_EnterVehicleData_010(String n) {
+		Reporter.log("TC_AM_EnterVehicleData_010_Test",true);
+		String expectedData=DataReader.getTestData("TC_AM_EnterVehicleData_010","EXPECTED DATA");
 		TricentisHomePage tricentisHomePage = new TricentisHomePage(driver);
 		tricentisHomePage.navigateToAutomobile();
 		AMVehicleData enterVehicleData = new AMVehicleData(driver);
@@ -39,8 +36,10 @@ public class TC_AM_EnterVehicleData_010 extends BaseClass {
 		Reporter.log(enterVehicleData.getErrorMsgEnginePerformance().getText()+" error message displayed properly",true);
 		explicitwait.until(ExpectedConditions.visibilityOf(enterVehicleData.getIconEnginePerformanceLabel()));
 		Assert.assertEquals(enterVehicleData.getIconEnginePerformanceLabel().getCssValue("background-position"),DataReader.fromPropertyFile("asteriskPosition"),"Negative data"+n +"is not acepted");
+		Reporter.log("Negative data" + expectedData + "is not accepted and proper error msg"+enterVehicleData.getErrorMsgEnginePerformance().getText()+"is displayed successfully and asterisk symbol is displayed",true);
+		
 	
-		//System.out.println(enterVehicleData.getIconEnginePerformanceLabel().getCssValue("background-position"));
+		
 		
 
 	}

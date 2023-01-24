@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automobileModule.TC_AM_EnterVehicleData_008">
+      <class name="automobileModule.TC_AM_EnterInsurantData_014_Test">
         <methods>
           <include name="browserSetUp"/>
           <include name="browserTearDown"/>
-          <include name="TC_AM_EnterVehicleData_008"/>
+          <include name="TC_AM_EnterInsurantData_013"/>
         </methods>
-      </class> <!-- automobileModule.TC_AM_EnterVehicleData_008 -->
+      </class> <!-- automobileModule.TC_AM_EnterInsurantData_014_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

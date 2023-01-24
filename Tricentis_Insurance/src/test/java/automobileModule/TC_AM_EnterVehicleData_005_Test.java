@@ -16,10 +16,11 @@ import basePackage.DataReader;
 import pom.*;
 
 
-public class TC_AM_EnterVehicleData_005 extends BaseClass  {
+public class TC_AM_EnterVehicleData_005_Test extends BaseClass  {
 	//To check error message is displayed when user click on Make dropdown
 	@Test
 	public void TC_AM_EnterVehicleData_005() {
+		Reporter.log("TC_AM_EnterVehicleData_005_Test", true);
 		TricentisHomePage tricentisHomePage = new TricentisHomePage(driver);
 		tricentisHomePage.navigateToAutomobile();
 		AMVehicleData enterVehicleData = new AMVehicleData(driver);
@@ -29,6 +30,7 @@ public class TC_AM_EnterVehicleData_005 extends BaseClass  {
 		Assert.assertEquals(enterVehicleData.getMsgOfMakeDropdown().getText(), expectedData,"Make dropdown message is mismatched");
 		Reporter.log(enterVehicleData.getMsgOfMakeDropdown().getText()+" message displayed properly",true);
 		Assert.assertEquals(enterVehicleData.getIconmMakeDropdown().getCssValue("background-position"),DataReader.fromPropertyFile("asteriskPosition"),"Asterisk symbol is not displayed properly");
+		Reporter.log("when user click on Make dropdown "+enterVehicleData.getMsgOfMakeDropdown().getText() +" error message is displayed");
 		
 }
 }

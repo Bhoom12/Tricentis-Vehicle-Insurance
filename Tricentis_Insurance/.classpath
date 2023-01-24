@@ -34,26 +34,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Bhomika/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar" sourcepath="C:/Users/Bhomika/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="7.4.0"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Bhomika/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar" sourcepath="C:/Users/Bhomika/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="7.6.1"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Bhomika/.p2/pool/plugins/org.testng_7.3.0.r202008060316.jar" sourcepath="C:/Users/Bhomika/.p2/pool/plugins/org.testng.source_7.3.0.r202008060316.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

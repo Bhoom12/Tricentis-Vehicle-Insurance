@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Empty browser is launched]]>
@@ -9,6 +9,9 @@
     </line>
     <line>
       <![CDATA[Application Main page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC_AM_EnterVehicleData_001_Test]]>
     </line>
     <line>
       <![CDATA[Automobile module page is displayed successfully]]>
@@ -22,53 +25,17 @@
     <line>
       <![CDATA[Closed the browser session successfully]]>
     </line>
-    <line>
-      <![CDATA[Empty browser is launched]]>
-    </line>
-    <line>
-      <![CDATA[Browser window is maximized]]>
-    </line>
-    <line>
-      <![CDATA[Application Main page is displayed successfully]]>
-    </line>
-    <line>
-      <![CDATA[Automobile module page is displayed successfully]]>
-    </line>
-    <line>
-      <![CDATA[Make dropdown is Multiple: false]]>
-    </line>
-    <line>
-      <![CDATA[Closed the browser session successfully]]>
-    </line>
-    <line>
-      <![CDATA[Empty browser is launched]]>
-    </line>
-    <line>
-      <![CDATA[Browser window is maximized]]>
-    </line>
-    <line>
-      <![CDATA[Application Main page is displayed successfully]]>
-    </line>
-    <line>
-      <![CDATA[Automobile module page is displayed successfully]]>
-    </line>
-    <line>
-      <![CDATA[Make dropdown options are matched with the requriment]]>
-    </line>
-    <line>
-      <![CDATA[Closed the browser session successfully]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="90945" started-at="2023-01-24T10:36:55 IST" finished-at="2023-01-24T10:38:26 IST">
+  <suite name="Default suite" duration-ms="20759" started-at="2023-01-24T18:11:04 IST" finished-at="2023-01-24T18:11:25 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="90945" started-at="2023-01-24T10:36:55 IST" finished-at="2023-01-24T10:38:26 IST">
+    <test name="Default test" duration-ms="20759" started-at="2023-01-24T18:11:04 IST" finished-at="2023-01-24T18:11:25 IST">
       <class name="automobileModule.TC_AM_EnterVehicleData_001_Test">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@5ed828d]" name="browserSetUp" is-config="true" duration-ms="26790" started-at="2023-01-24T10:36:55 IST" finished-at="2023-01-24T10:37:22 IST">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@2bbf4b8b]" name="browserSetUp" is-config="true" duration-ms="14668" started-at="2023-01-24T18:11:04 IST" finished-at="2023-01-24T18:11:19 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
@@ -84,8 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="TC_AM_EnterVehicleData_001()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@5ed828d]" name="TC_AM_EnterVehicleData_001" duration-ms="6672" started-at="2023-01-24T10:37:22 IST" finished-at="2023-01-24T10:37:29 IST">
+        <test-method status="PASS" signature="make()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@2bbf4b8b]" name="make" duration-ms="4843" started-at="2023-01-24T18:11:19 IST" finished-at="2023-01-24T18:11:24 IST">
           <reporter-output>
+            <line>
+              <![CDATA[TC_AM_EnterVehicleData_001_Test]]>
+            </line>
             <line>
               <![CDATA[Automobile module page is displayed successfully]]>
             </line>
@@ -96,8 +66,8 @@
               <![CDATA[Make Label is matched]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_AM_EnterVehicleData_001 -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@5ed828d]" name="browserTearDown" is-config="true" duration-ms="4851" started-at="2023-01-24T10:37:29 IST" finished-at="2023-01-24T10:37:34 IST">
+        </test-method> <!-- make -->
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_001_Test@2bbf4b8b]" name="browserTearDown" is-config="true" duration-ms="1144" started-at="2023-01-24T18:11:24 IST" finished-at="2023-01-24T18:11:25 IST">
           <reporter-output>
             <line>
               <![CDATA[Closed the browser session successfully]]>
@@ -105,84 +75,6 @@
           </reporter-output>
         </test-method> <!-- browserTearDown -->
       </class> <!-- automobileModule.TC_AM_EnterVehicleData_001_Test -->
-      <class name="automobileModule.TC_AM_EnterVehicleData_003_Test">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_003_Test@77f99a05]" name="browserSetUp" is-config="true" duration-ms="18804" started-at="2023-01-24T10:37:34 IST" finished-at="2023-01-24T10:37:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Empty browser is launched]]>
-            </line>
-            <line>
-              <![CDATA[Browser window is maximized]]>
-            </line>
-            <line>
-              <![CDATA[Application Main page is displayed successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="TC_AM_EnterVehicleData_003()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_003_Test@77f99a05]" name="TC_AM_EnterVehicleData_003" duration-ms="2456" started-at="2023-01-24T10:37:52 IST" finished-at="2023-01-24T10:37:55 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[Automobile module page is displayed successfully]]>
-            </line>
-            <line>
-              <![CDATA[Make dropdown is Multiple: false]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_AM_EnterVehicleData_003 -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_003_Test@77f99a05]" name="browserTearDown" is-config="true" duration-ms="4897" started-at="2023-01-24T10:37:55 IST" finished-at="2023-01-24T10:38:00 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[Closed the browser session successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserTearDown -->
-      </class> <!-- automobileModule.TC_AM_EnterVehicleData_003_Test -->
-      <class name="automobileModule.TC_AM_EnterVehicleData_002_Test">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_002_Test@63440df3]" name="browserSetUp" is-config="true" duration-ms="19268" started-at="2023-01-24T10:38:00 IST" finished-at="2023-01-24T10:38:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Empty browser is launched]]>
-            </line>
-            <line>
-              <![CDATA[Browser window is maximized]]>
-            </line>
-            <line>
-              <![CDATA[Application Main page is displayed successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="TC_AM_EnterVehicleData_002()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_002_Test@63440df3]" name="TC_AM_EnterVehicleData_002" duration-ms="3014" started-at="2023-01-24T10:38:19 IST" finished-at="2023-01-24T10:38:22 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[Automobile module page is displayed successfully]]>
-            </line>
-            <line>
-              <![CDATA[Make dropdown options are matched with the requriment]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_AM_EnterVehicleData_002 -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:automobileModule.TC_AM_EnterVehicleData_002_Test@63440df3]" name="browserTearDown" is-config="true" duration-ms="4061" started-at="2023-01-24T10:38:22 IST" finished-at="2023-01-24T10:38:26 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[Closed the browser session successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserTearDown -->
-      </class> <!-- automobileModule.TC_AM_EnterVehicleData_002_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
